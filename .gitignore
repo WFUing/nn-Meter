@@ -1,3 +1,6 @@
+*.keras
+*.pb
+
 # Python file
 __pycache__/
 *.py[cod]
@@ -43,3 +46,6 @@ cover/
 
 # Sphinx documentation
 docs/_build/
+
+data/
+

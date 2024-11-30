@@ -1,11 +1,11 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT license.
 import logging
-import tensorflow as tf
-import tensorflow.keras as keras
+
 from .operators import *
-from ..interface import BaseBlock
 from .utils import get_inputs_by_shapes
+from ..interface import BaseBlock
+
 logging = logging.getLogger("nn-Meter")
 
 

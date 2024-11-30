@@ -1,0 +1,5 @@
+builtin_name: my_backend
+package_location: /home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug
+class_module: backend
+class_name: DebugBackend
+defaultConfigFile:

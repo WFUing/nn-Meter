@@ -53,8 +53,9 @@ class BaseTestCase:
         testcase = self.generate_testcase()
 
         for op, model in testcase.items():
-            model_path = os.path.join(self.workspace_path, self.name + '_' + op)
+            model_path = os.path.join(self.workspace_path, self.name + '_' + op + '.keras')
             model_path = save_model(model, model_path, self.implement)
+            print(model_path)
             testcase[op]['model'] = model_path
 
         return testcase

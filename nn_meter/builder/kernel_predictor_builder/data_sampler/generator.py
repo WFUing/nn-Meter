@@ -40,7 +40,8 @@ class KernelGenerator:
         count = 0
         error_save_path = os.path.join(self.workspace_path, 'results', 'generate_error.log')
         for id, value in self.kernels.items():
-            model_path = os.path.join(self.case_save_path, ("_".join([kernel_type, self.mark, id]) + self.model_suffix))
+            model_path = os.path.join(self.case_save_path, ("_".join([kernel_type, self.mark, id]) + self.model_suffix) + '.keras')
+            # print(model_path)
             kernel_cfg = value['config']
             try:
                 _, input_tensor_shape, config = generate_model_for_kernel(
