@@ -1,0 +1,157 @@
+{
+    "conv-bn-relu": {
+        "701OIF": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_701OIF.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    63
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 63,
+                "COUT": 141,
+                "KERNEL_SIZE": 1,
+                "STRIDES": 1
+            }
+        },
+        "YL808Q": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_YL808Q.keras",
+            "shapes": [
+                [
+                    8,
+                    8,
+                    67
+                ]
+            ],
+            "config": {
+                "HW": 8,
+                "CIN": 67,
+                "COUT": 49,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1
+            }
+        },
+        "EHTTH9": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_EHTTH9.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    197
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 197,
+                "COUT": 10,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1
+            }
+        },
+        "XQYXCU": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_XQYXCU.keras",
+            "shapes": [
+                [
+                    27,
+                    27,
+                    160
+                ]
+            ],
+            "config": {
+                "HW": 27,
+                "CIN": 160,
+                "COUT": 59,
+                "KERNEL_SIZE": 1,
+                "STRIDES": 1
+            }
+        },
+        "G7Q1HX": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_G7Q1HX.keras",
+            "shapes": [
+                [
+                    8,
+                    8,
+                    412
+                ]
+            ],
+            "config": {
+                "HW": 8,
+                "CIN": 412,
+                "COUT": 44,
+                "KERNEL_SIZE": 7,
+                "STRIDES": 2
+            }
+        },
+        "1T8FCS": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_1T8FCS.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    1187
+                ]
+            ],
+            "config": {
+                "HW": 14,
+                "CIN": 1187,
+                "COUT": 24,
+                "KERNEL_SIZE": 5,
+                "STRIDES": 1
+            }
+        },
+        "HTMTCD": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_HTMTCD.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    594
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 594,
+                "COUT": 475,
+                "KERNEL_SIZE": 1,
+                "STRIDES": 1
+            }
+        },
+        "WZMDMH": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_WZMDMH.keras",
+            "shapes": [
+                [
+                    56,
+                    56,
+                    227
+                ]
+            ],
+            "config": {
+                "HW": 56,
+                "CIN": 227,
+                "COUT": 220,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 2
+            }
+        },
+        "O0552N": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/predictor_build/kernels/conv-bn-relu_test_O0552N.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    407
+                ]
+            ],
+            "config": {
+                "HW": 28,
+                "CIN": 407,
+                "COUT": 174,
+                "KERNEL_SIZE": 3,
+                "STRIDES": 1
+            }
+        }
+    }
+}

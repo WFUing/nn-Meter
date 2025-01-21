@@ -25,7 +25,7 @@ class BaseOperator:
     def get_is_two_inputs(self):
         return False
 
-    def test_operator():
+    def test_operator(self):
         ''' for users to test the model when registration. Do not need to override by users.
         '''
         pass

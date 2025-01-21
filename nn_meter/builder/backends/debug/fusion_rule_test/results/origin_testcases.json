@@ -1,0 +1,2884 @@
+{
+    "BF_add_add": {
+        "add_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_add_add_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_add_add_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_avgpool": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_avgpool_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_concat": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_concat_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_concat_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_conv": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_conv_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_conv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_convtrans": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_convtrans_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_dwconv": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_dwconv_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_fc": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_fc_add.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_fc_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_fc_block.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_add_relu": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_relu_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_add_reshape": {
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_reshape_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_add_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_add": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_add_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_add_add.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ],
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_avgpool": {
+        "avgpool_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_avgpool_avgpool_2.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_concat": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_concat_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_concat_concat.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ],
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_conv": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_conv_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_conv_conv.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_convtrans": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_convtrans_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_dwconv": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_dwconv_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_relu": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_relu_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_relu_relu.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_avgpool_reshape": {
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_reshape_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_reshape_reshape.keras",
+            "shapes": [
+                [
+                    14,
+                    14,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_avgpool_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_bn_relu": {
+        "bn": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_bn_relu_bn.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_bn_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_bn_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_add": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_add_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_add_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_concat_avgpool": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_avgpool_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_concat": {
+        "concat_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_concat_concat_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_concat_concat_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_concat_conv": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_conv_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_conv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_convtrans": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_convtrans_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_dwconv": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_dwconv_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_fc": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_fc_concat.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_fc_fc.keras",
+            "shapes": [
+                [
+                    856
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_fc_block.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_concat_relu": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_relu_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_concat_reshape": {
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_reshape_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_concat_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_add": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_add_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_add_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_conv_avgpool": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_avgpool_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_bn": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_bn_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "bn": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_bn_bn.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_bn_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_concat": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_concat_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_concat_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_conv_conv": {
+        "conv_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_conv_conv_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_conv_conv_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_convtrans": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_convtrans_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_dwconv": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_dwconv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_hswish": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_hswish_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "hswish": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_hswish_hswish.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_hswish_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_relu": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_relu_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_reshape": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_reshape_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_conv_se": {
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_se_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "se": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_se_se.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_conv_se_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_add": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_add_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_add_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_avgpool": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_avgpool_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_concat": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_concat_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_concat_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_conv": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_conv_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_conv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_convtrans": {
+        "convtrans_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_convtrans_convtrans_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_dwconv": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_dwconv_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_relu": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_relu_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_convtrans_reshape": {
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_reshape_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_convtrans_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_add": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_add_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_add_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_avgpool": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_avgpool_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_bn": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_bn_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "bn": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_bn_bn.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_bn_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_concat": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_concat_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_concat_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_conv": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_conv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_conv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_convtrans": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_convtrans_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_dwconv": {
+        "dwconv_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_dwconv_dwconv_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_relu": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_relu_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_dwconv_reshape": {
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_reshape_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_dwconv_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_fc_add": {
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_add_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_add_add.keras",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_add_block.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_fc_concat": {
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_concat_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_concat_concat.keras",
+            "shapes": [
+                [
+                    128
+                ],
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_concat_block.keras",
+            "shapes": [
+                [
+                    428
+                ],
+                [
+                    128
+                ]
+            ]
+        }
+    },
+    "BF_fc_fc": {
+        "fc_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_fc_fc_1.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_fc_fc_2.keras",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_fc_block.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_fc_relu": {
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_relu_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_relu_relu.keras",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_relu_block.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_fc_reshape": {
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_reshape_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_reshape_reshape.keras",
+            "shapes": [
+                [
+                    128
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_fc_reshape_block.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_relu_add": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_add_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_add_add.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_avgpool": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_avgpool_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_concat": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_concat_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_concat_concat.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_conv": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_conv_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_conv_conv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_convtrans": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_convtrans_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_dwconv": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_dwconv_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_fc": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_fc_relu.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_fc_fc.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_fc_block.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_relu_relu": {
+        "relu_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_relu_relu_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_relu_relu_2.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_relu_reshape": {
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_reshape_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_reshape_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_relu_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_add": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_add_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "add": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_add_add.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_add_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_avgpool": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_avgpool_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "avgpool": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_avgpool_avgpool.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_avgpool_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_concat": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_concat_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "concat": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_concat_concat.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_concat_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ],
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        }
+    },
+    "BF_reshape_conv": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_conv_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "conv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_conv_conv.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_conv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_convtrans": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_convtrans_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "convtrans": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_convtrans_convtrans.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_convtrans_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_dwconv": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_dwconv_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_dwconv_dwconv.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_dwconv_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_fc": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_fc_reshape.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        },
+        "fc": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_fc_fc.keras",
+            "shapes": [
+                [
+                    1,
+                    2,
+                    214
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_fc_block.keras",
+            "shapes": [
+                [
+                    428
+                ]
+            ]
+        }
+    },
+    "BF_reshape_relu": {
+        "reshape": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_relu_reshape.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_relu_relu.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_reshape_reshape": {
+        "reshape_1": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_reshape_reshape_1.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "reshape_2": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_reshape_reshape_2.keras",
+            "shapes": [
+                [
+                    64,
+                    28,
+                    28
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_reshape_reshape_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "BF_se_relu": {
+        "se": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_se_relu_se.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_se_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/BF_se_relu_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    },
+    "MON": {
+        "block": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_block.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu_relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "relu_dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_relu_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_dwconv.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv_relu_relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_dwconv_relu_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        },
+        "dwconv_relu": {
+            "model": "/home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/debug/fusion_rule_test/testcases/MON_dwconv_relu.keras",
+            "shapes": [
+                [
+                    28,
+                    28,
+                    64
+                ]
+            ]
+        }
+    }
+}

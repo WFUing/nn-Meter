@@ -53,12 +53,44 @@ class BaseTestCase:
         testcase = self.generate_testcase()
 
         for op, model in testcase.items():
-            model_path = os.path.join(self.workspace_path, self.name + '_' + op + '.keras')
+            model_path = os.path.join(self.workspace_path, self.name + '_' + op)
             model_path = save_model(model, model_path, self.implement)
+            self.save_input_info(model_path)
             print(model_path)
             testcase[op]['model'] = model_path
 
         return testcase
+
+    def save_input_info(self, save_path):
+        dir_name = os.path.dirname(save_path)
+        model_name = os.path.basename(save_path)
+        json_file_path = os.path.join(dir_name, 'input_info.json')
+        new_data = {
+            model_name: {
+                "input_tensor_shape": [self.input_shape],
+                "batch_size": 1,
+            }
+        }
+        # 检查 JSON 文件是否存在
+        if os.path.exists(json_file_path):
+            # 如果文件存在，加载内容并追加数据
+            with open(json_file_path, 'r') as json_file:
+                try:
+                    data = json.load(json_file)  # 读取文件内容
+                except json.JSONDecodeError:
+                    data = {}  # 如果文件为空或无效，初始化为空字典
+
+            # 更新数据
+            data.update(new_data)
+
+            # 写回文件
+            with open(json_file_path, 'w') as json_file:
+                json.dump(data, json_file, indent=4)
+
+        else:
+            # 如果文件不存在，则创建文件并写入数据
+            with open(json_file_path, 'w') as json_file:
+                json.dump(new_data, json_file, indent=4)
 
     def load_latency(self, testcase):
         self.latency['block'] = Latency(testcase['block']['latency'])

@@ -1,0 +1,10 @@
+model_path,HW,CIN,COUT,KERNEL_SIZE,STRIDES,feature_0,feature_1,latency
+conv-bn-relu_test_701OIF.keras,14,63,141,1,1,1.768704,0.009024,49.39
+conv-bn-relu_test_YL808Q.keras,8,67,49,3,1,1.894144,0.029596,89.84
+conv-bn-relu_test_EHTTH9.keras,14,197,10,3,1,3.47704,0.01774,27.5
+conv-bn-relu_test_XQYXCU.keras,27,160,59,1,1,6.924771,0.009499,53.95
+conv-bn-relu_test_G7Q1HX.keras,8,412,44,7,2,14.213056,0.888316,39.56
+conv-bn-relu_test_1T8FCS.keras,14,1187,24,5,1,139.595904,0.712224,91.42
+conv-bn-relu_test_HTMTCD.keras,28,594,475,1,1,221.578,0.282625,23.6
+conv-bn-relu_test_WZMDMH.keras,56,227,220,3,2,352.54912,0.44968,77.84
+conv-bn-relu_test_O0552N.keras,28,407,174,3,1,499.828224,0.637536,86.53

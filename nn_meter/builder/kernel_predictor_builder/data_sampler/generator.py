@@ -40,7 +40,7 @@ class KernelGenerator:
         count = 0
         error_save_path = os.path.join(self.workspace_path, 'results', 'generate_error.log')
         for id, value in self.kernels.items():
-            model_path = os.path.join(self.case_save_path, ("_".join([kernel_type, self.mark, id]) + self.model_suffix) + '.keras')
+            model_path = os.path.join(self.case_save_path, ("_".join([kernel_type, self.mark, id]) + self.model_suffix))
             # print(model_path)
             kernel_cfg = value['config']
             try:
@@ -51,7 +51,8 @@ class KernelGenerator:
                 self.kernels[id] = {
                     'model': model_path,
                     'shapes': input_tensor_shape,
-                    'config': config
+                    'config': config,
+                    # 'resource': resource
                 }
                 count += 1
             except Exception as e:

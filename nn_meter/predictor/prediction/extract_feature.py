@@ -22,6 +22,8 @@ def get_predict_features(config):
         logging.info(item)
     for item in config:
         op = item["op"]
+        if "concat" in op:
+            break
         if "conv" in op or "maxpool" in op or "avgpool" in op:
             cout = item["cout"]
             cin = item["cin"]

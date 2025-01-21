@@ -109,7 +109,7 @@ def check_getir_module(model_type, ppath):
 
 if __name__ == "__main__":
     check_package_status()
-    output_name = "tests/integration_test/test_result.txt"
+    output_name = "/home/wds/zhitai/graduate/projects/nn-Meter/tests/integration_test/test_result.txt"
 
     # check tensorflow model
     integration_test(

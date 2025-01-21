@@ -1,0 +1,21 @@
+name: k8_predictor
+version: 1.0
+category: cpu
+package_location: /home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/tf_container/k8_predictor
+kernel_predictors:
+    - conv-bn-relu
+    - dwconv-bn-relu
+    - fc
+    - global-avgpool
+    - hswish
+    - relu
+    - se
+    - split
+    - add
+    - addrelu
+    - maxpool
+    - avgpool
+    - bn
+    - bnrelu
+    - channelshuffle
+    - concat

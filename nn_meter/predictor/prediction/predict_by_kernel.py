@@ -27,6 +27,8 @@ def predict_model(model, predictors):
     for layer in model:
         kernel = list(model[layer].keys())[0]
         features = model[layer][kernel]
+        # 将资源限制添加为特征
+        # features += [cpu_request, cpu_limit, gpu_limit]
         rkernel = merge_conv_kernels(kernel)
         if rkernel not in dicts:
             dicts[rkernel] = []
@@ -36,7 +38,7 @@ def predict_model(model, predictors):
         kernelname = get_kernel_name(kernel)
         if kernelname in predictors:
             pred = predictors[kernelname]
-            pys = pred.predict(dicts[kernel]) # in unit of ms
+            pys = pred.predict(dicts[kernel])  # in unit of ms
             if len(pys) != 0:
                 py += sum(pys)
 

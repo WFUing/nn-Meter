@@ -1,5 +1,6 @@
 *.keras
 *.pb
+*.pkl
 
 # Python file
 __pycache__/

@@ -1,0 +1,5 @@
+builtin_name: tf_backend
+package_location: /home/wds/zhitai/graduate/projects/nn-Meter/nn_meter/builder/backends/tf_container
+class_module: backend
+class_name: TFContainerBackend
+defaultConfigFile:

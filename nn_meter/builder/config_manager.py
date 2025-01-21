@@ -5,7 +5,7 @@ import yaml
 import pkg_resources
 from shutil import copyfile
 
-__backend_tflite_cfg_filename__ = 'backend_tflite_config.yaml'
+__backend_tflite_cfg_filename__ = 'backend_config.yaml'
 __backend_openvino_cfg_filename__ = 'backend_openvino_config.yaml'
 __ruletest_cfg_filename__ = 'ruletest_config.yaml'
 __predbuild_cfg_filename__ = 'predictorbuild_config.yaml'

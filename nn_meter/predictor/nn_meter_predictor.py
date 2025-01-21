@@ -10,7 +10,6 @@ from nn_meter.utils import get_user_data_folder
 from nn_meter.ir_converter import model_file_to_graph, model_to_graph
 logging = logging.getLogger("nn-Meter")
 
-
 __predictors_cfg_filename__ = 'predictors.yaml'
 
 
@@ -66,7 +65,7 @@ def load_latency_predictor(predictor_name: str, predictor_version: float = None)
         kernel_predictors, fusionrule = loading_to_local(pred_info, os.path.join(user_data_folder, 'predictor'))
     else:
         kernel_predictors, fusionrule = loading_customized_predictor(pred_info)
-        
+
     return nnMeterPredictor(kernel_predictors, fusionrule)
 
 
@@ -77,7 +76,8 @@ class nnMeterPredictor:
         self.kd = KernelDetector(self.fusionrule)
 
     def predict(
-        self, model, model_type, input_shape=(1, 3, 224, 224), apply_nni=False
+            self, model, model_type, input_shape=(1, 3, 224, 224), apply_nni=False, cpu_request=1, cpu_limit=1,
+            gpu_limit=0
     ):
         """
         return the predicted latency in microseconds (ms)
@@ -106,10 +106,10 @@ class nnMeterPredictor:
             graph = model_file_to_graph(model, model_type, input_shape, apply_nni=apply_nni)
         else:
             graph = model_to_graph(model, model_type, input_shape=input_shape, apply_nni=apply_nni)
-        
+
         # logging.info(graph)
         self.kd.load_graph(graph)
 
-        py = nn_predict(self.kernel_predictors, self.kd.get_kernels()) # in unit of ms
+        py = nn_predict(self.kernel_predictors, self.kd.get_kernels())  # in unit of ms
         logging.info(f"Predict latency: {py} ms")
         return py
